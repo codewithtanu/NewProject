@@ -675,5 +675,66 @@ nav h3 {
     height: 60vh;
     width: 100%;
     background-color: red;
-    filter: blur(25px);
+    /* filter: blur(25px); */
+    position: relative;
+    z-index: -1;
+}
+#last{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 38px;
+}
+#last a{
+    text-decoration: none;
+    color: white;
+}
+#last a :hover{
+    cursor: pointer;
+border-bottom: 2px solid white;
+}
+.swiper-slide{
+    font-size: 35px;
+}
+#foot1{
+height: 100%;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+bottom: 50%;
+/* background-color: aqua; */
+}
+#f{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid whitesmoke;
+}
+#ff{
+    font-size: 50px;
+    font: lighter;
+
+}
+#f input{
+    padding: 10px;
+    margin: 5px;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    margin-top: 5px;
+}
+#one{
+  font-size: 45px;
+  margin-left: 30px;
+}
+#arrow{
+    font-size: 45px;
+    right: 0;
+}
+#final{
+    margin-right: 30px;
+}
+#f{
+    display: flex;
+    justify-content: space-between;
 }
